@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+
+    <title>The Fireworks Project</title>
+    <meta name="description" content="The Fireworks Project is forging web, mobile, and commerce for vibrant local economies.">
+
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+<header id="header">
+	<img class="logo" src="{{ cdn }}/images/fireworks-project-logo.png"
+		alt="The Fireworks Project Logo" />
+	<h1 class="company-name">
+		fireworks <em>project</em>
+	</h1>
+</header>
+
+{# Sub pages create their own role="main" content area and give it an ID #}
+{% block main %}
+<div role="main" class="main-content" id="homepage">
+
+	<h1 class="shabang">Dream Big</h1>
+
+	<p class="intro">
+		Imagine software tailored to the needs of <strong>your</strong> business and
+		built for the way <strong>you</strong> work.
+	</p>
+
+	<p class="call-to-action">
+		We create Cloud and Web Based software which makes that vision a reality. Dream big and
+		we'll help you build it.  Email us at
+		<a href="mailto:firechief@fireworksproject.com">firechief@fireworksproject.com</a>
+	</p>
+
+</div><!-- #homepage .main-content -->
+{% endblock %}
+
+<footer id="footer">
+	<p class="copyright">
+		Copyright &copy; 2012 Fireworks Project Inc. All rights reserved.<br />
+		<a href="mailto:firechief@fireworksproject.com">firechief@fireworksproject.com</a>
+	</p>
+</footer>
+
+
+	<!--
+    <script>
+        var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+		-->
+</body>
+</html>
