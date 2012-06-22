@@ -1,5 +1,5 @@
-www.fireworksproject.com
-========================
+Fireworks Project Website
+=========================
 
 The source code for [www.fireworksproject.com](http://www.fireworksproject.com).
 
